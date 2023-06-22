@@ -33,7 +33,7 @@ async function connect() {
 }
 connect();
 
-// to generate jwt token
-import crypto from 'crypto'
-const secrectkey = crypto.randomBytes(32).toString('hex');
-console.log(secrectkey);
+// // to generate jwt token
+// import crypto from 'crypto'
+//const secrectkey = crypto.randomBytes(32).toString('hex');
+// console.log(secrectkey); 
