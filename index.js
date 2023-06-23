@@ -23,9 +23,9 @@ app.use("/api", router);
 
 async function connect() {
   try {
-    app.listen(8000, () => {
+      app.listen(8000, () => {
       connectDB(process.env.MONGODB_PASSWORD);
-      console.log("server is running on  port 8000");
+      console.log("server is running on port 8000");
     });
   } catch (err) {
     console.log(err);
